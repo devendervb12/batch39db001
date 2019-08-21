@@ -5,9 +5,9 @@
 	        <VBox>
 	            <items>
 	                <Label text="Company Name"/>
-	                <Text text="{/companyName}"/>
+	                <Text id="idTxt1"/>
 	                <Label text="City"/>
-	                <Text text="{/city}"/>
+	                <Text id="idTxt2"/>
 	            </items>
 	        </VBox>
 		</content>

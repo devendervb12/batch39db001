@@ -15,6 +15,16 @@ sap.ui.controller("zdb001.Company", {
 		
 		// setting model to the view
 		this.getView().setModel(oModel);
+		
+		var oTxt1 = this.getView().byId("idTxt1");
+		
+		oTxt1.bindProperty("text","/companyName");
+		
+		var oTxt2 = this.getView().byId("idTxt2");
+		
+		oTxt2.bindProperty("text", "/city");
+		
+		
 	},
 
 /**
